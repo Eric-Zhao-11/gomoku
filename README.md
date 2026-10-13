@@ -1,6 +1,10 @@
 # 五子棋 · 人机对战
 
-一个用原生 HTML + CSS + JavaScript 写的五子棋小游戏,无需安装任何依赖,双击 `gomoku.html` 即可在浏览器中开玩。
+一个用原生 HTML + CSS + JavaScript 写的五子棋小游戏,无需安装任何依赖。
+
+🎮 **在线试玩**:https://eric-zhao-11.github.io/gomoku/
+
+也可以下载后双击 `index.html` 在本地开玩。
 
 这是我 GitHub 生涯的第一个仓库 🎉
 
@@ -29,14 +33,14 @@ AI 采用**棋型评分**策略:对每个候选点,在四个方向上用字符�
 ## 文件说明
 
 ```
-gomoku.html   # 游戏本体(单文件,含全部界面与 AI)
+index.html    # 游戏本体(单文件,含全部界面与 AI)
 icon.ico      # 桌面快捷方式图标
 README.md     # 本文件
 ```
 
 ## 在本地运行
 
-直接用浏览器打开 `gomoku.html` 即可;或者克隆仓库后双击运行:
+直接用浏览器打开 `index.html` 即可;或者克隆仓库后双击运行:
 
 ```bash
 git clone https://github.com/Eric-Zhao-11/gomoku.git
